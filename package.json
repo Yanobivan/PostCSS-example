@@ -1,0 +1,26 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build:css": "postcss styles.css --dir bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanobivan/PostCSS-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanobivan/PostCSS-example/issues"
+  },
+  "homepage": "https://github.com/Yanobivan/PostCSS-example#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^8.0.1"
+  }
+}
